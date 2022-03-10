@@ -3,8 +3,10 @@ bool startGame() {
   
 }
 
-void getTarget() {
+void placement() {
   
 }
 
-
+void getTarget() {
+  
+}
