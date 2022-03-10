@@ -1,1 +1,10 @@
 
+bool startGame() {
+  
+}
+
+void getTarget() {
+  
+}
+
+
