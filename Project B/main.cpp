@@ -1,9 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <iomanip>
-#include <ctime>
-#include <cstdlib>
+#include "userInput.hpp"
+#include "boardUpdate.hpp"
 
 int main() {
   
