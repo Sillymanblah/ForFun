@@ -1,3 +1,4 @@
+#include "boardUpdates.hpp"
 
 bool startGame() {
   
