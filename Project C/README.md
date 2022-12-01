@@ -33,37 +33,39 @@
 
 ### Knowledge:
 
-*Visual displays:*
+**Visual displays:**
 
 I would like learn how to handle the display of code through either a rendering software or through written code. 
 
-*Memory handling:*
+**Memory handling:**
 
 I would like to learn how to deal with large amounts of active memory in code efficiently so that larger programs can be run.
 
-*Object interactions:*
+**Object interactions:**
 
 I want to learn how to have objects in a program interact with each other, whether it be in 3D space, or simply through information passing.
 
-*Dimensional space:*
+**Dimensional space:**
 
 I want to learn how to utilize dimensional space in my programming so that I can have objects moving within it.
 
-*Layering:*
+**Layering:**
 
 Lastly, I would like to have layers to my programs, multilevel class referencing that is still efficient and reader-friendly.
 
+___
+
 ### Experience:
 
-*Object oriented programming:*
+**Object oriented programming:**
 
 I have some experience already with object-oriented programming, but I would like to expand on that knowledge, to a point where I can help others.
 
-*Class file implementation:*
+**Class file implementation:**
 
 I have a good amount of experience using classes and yet I believe that I have barely scratched the surface, so I would like to increase my familiarity with classes and their usefulness.
 
-*Long-term commitment:*
+**Long-term commitment:**
 
 I have always struggled with maintaining personal projects, and I really and hopeful that this will be the one that can start to swing that around.
 
@@ -74,6 +76,8 @@ I have always struggled with maintaining personal projects, and I really and hop
 ### Subject Knowledge:
 
 N/A
+
+___
 
 ### Coding Experience:
 
