@@ -1,7 +1,7 @@
 #ifndef BOARD_HPP
 #define BOARD_HPP
 
-#include "gameLimits.hpp"
+#include "Ship.hpp"
 
 class Board {
   private:
