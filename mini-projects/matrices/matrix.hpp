@@ -90,7 +90,7 @@ class square_matrix : _STD conditional< _STD is_floating_point_v<_Num>, _floatin
 
     public:
         square_matrix() : _matrix(nullptr), _size(0) {};
-        square_matrix( const uint16_t& __size, const _Num _value ) : _matrix(nullptr), _size(__size)
+        square_matrix( const uint16_t& __size, const _Num _value = 0 ) : _matrix(nullptr), _size(__size)
         {
             this->build(_size);
         }
