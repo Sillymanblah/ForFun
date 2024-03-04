@@ -9,7 +9,7 @@ int main()
     srand( time( NULL ) );
     const uint16_t MATRIX_SIZE = 4;
 
-    using matrix_type = double;
+    typedef int matrix_type;
 
     uint16_t x, y;
     matrix_type temp = (matrix_type) rand() / RAND_MAX;
@@ -22,6 +22,6 @@ int main()
 
     std::cout << "\n" << x << "," << y << ": " << temp << "\n";
 
-    test.get_pos(x,y) = temp;
+    test.at(x,y) = temp;
     std::cout << test;
 }

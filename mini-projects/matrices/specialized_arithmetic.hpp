@@ -13,21 +13,19 @@
 #define _CSTD ::
 #endif // _CSTD
 
-#define ALT_ARITHMETIC complex
+namespace spec {
 
 // Moved here so I can use it :/
 template <class _Ty, class... _Types>
 inline constexpr bool _Is_any_of_v = // true if and only if _Ty is in _Types
     _STD disjunction_v< _STD is_same< _Ty, _Types >... >;
 
-namespace spec {
-
 template < class _Ty >
 inline constexpr bool is_arithmetic_v = 
 #if defined( ALT_ARITHMETIC )
-_CSTD _Is_any_of_v< _Ty, complex > || 
+    _SPEC _Is_any_of_v< _Ty, ALT_ARITHMETIC > || 
 #endif // defined( ALT_ARITHMETIC )
-_STD is_arithmetic_v<_Ty>;
+    _STD is_arithmetic_v<_Ty>;
 
 template < class _Ty >
 struct is_arithmetic : _STD bool_constant< _SPEC is_arithmetic_v<_Ty> > {};
