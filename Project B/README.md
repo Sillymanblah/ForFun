@@ -11,7 +11,7 @@
 ### Project Details:
 **Title**: _TBD_
 
-**Description**: A fun side-project for me to do in my downtime that focuses on the .
+**Description**: A fun side-project for me to do in my downtime that experiments with best-play strategy in battleship under constraints.
 
 **Required code**:
 ```
