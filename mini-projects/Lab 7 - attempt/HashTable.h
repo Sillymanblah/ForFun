@@ -5,7 +5,11 @@
 #include "HashEntry.h"
 
 class HashTable {
-  
+public:
+    HashTable();
+
+private:
+    HashEntry* table;
 };
 
 #endif
