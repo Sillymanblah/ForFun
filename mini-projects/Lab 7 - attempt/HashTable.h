@@ -7,9 +7,11 @@
 class HashTable {
 public:
     HashTable();
+    HashTable( size_t __size );
 
 private:
-    HashEntry* table;
+    HashEntry** _table;
+    size_t _size;
 };
 
 #endif
