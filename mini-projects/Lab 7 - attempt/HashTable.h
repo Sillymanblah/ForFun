@@ -10,6 +10,13 @@ public:
     HashTable( size_t __size );
 
 private:
+    size_t hash( int __key );
+    void putValue( HashEntry*& current, int __key, Costume* __value );
+
+public:
+    void putValue( int __key, Costume* __value );
+
+private:
     HashEntry** _table;
     size_t _size;
 };
