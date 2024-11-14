@@ -1,11 +1,12 @@
+#pragma once
+#ifndef MATRIX_HPP
+#define MATRIX_HPP
+
 #include <stdint.h>
 #include <string>
 #include <iostream>
 #include <iomanip>
 #include "specialized_arithmetic.hpp"
-
-#ifndef MATRIX_HPP
-#define MATRIX_HPP
 
 template <typename _Num>
 uint8_t get_width( const _Num& _number, uint8_t _precision )

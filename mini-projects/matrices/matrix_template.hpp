@@ -1,3 +1,7 @@
+#pragma once
+#ifndef MATRIX_TEMPLATE_HPP
+#define MATRIX_TEMPLATE_HPP
+
 #include <stdint.h>
 #include <type_traits>
 #include <utility>
@@ -340,3 +344,5 @@ public _matrix_base< _Ty, min_int_cast_t<_Size>, _Size, _Size >
             
         }
 };
+
+#endif // MATRIX_TEMPLATE_HPP
